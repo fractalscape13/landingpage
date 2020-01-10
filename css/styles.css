@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background-image: linear-gradient(black, rgb(28, 49, 70));
+    background-size: fill;
     font-family: monospace;
     text-align: center;
 }
@@ -8,6 +9,7 @@ body {
     margin-left: 200px;
     margin-right: 75px;
     /* border: 1px solid red; */
+    padding-bottom: 200px;
 }
 
 .container-fluid img {
@@ -29,7 +31,7 @@ body {
     position: fixed;
     height: 100%;
     width: 200px;
-    background-color: rgb(67, 68, 68);
+    background-image: linear-gradient(rgba(255, 0, 0, 0.397), black);
     padding-top: 20px;
 }
 
