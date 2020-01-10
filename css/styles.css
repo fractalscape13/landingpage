@@ -15,7 +15,7 @@ body {
     width: 300px;
     image-orientation: from-image;
     border-radius: 10%;
-    margin-top: 30px;
+    margin: 30px;
 }
 
 .container-fluid p {
@@ -81,4 +81,9 @@ blockquote p {
 
 #projectlist ul li {
     padding-bottom: 20px;
+}
+
+.fractal {
+    color: rgba(100, 73, 60, 0.555);
+
 }
