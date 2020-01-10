@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(black, rgb(28, 49, 70));
     background-size: fill;
-    font-family: monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -49,7 +49,8 @@ ul li, ol li {
     margin-bottom: 50px;
     width: 120px;
     border-radius: 100%;
-    border: 3px solid black;
+    border: 8px solid black;
+    opacity: .9;
 }
 
 .navbar li {
@@ -67,6 +68,7 @@ h1 {
 
 h2 {
     font-size: 120%;
+    color: rgba(184, 110, 26, 0.425);
     padding-top: 130px;
 }
 
@@ -79,6 +81,7 @@ blockquote {
 
 blockquote p {
     font-size: 75%;
+    color: silver;
 }
 
 #projectlist ul {
@@ -93,7 +96,7 @@ blockquote p {
 }
 
 .fractal {
-    color: rgba(100, 73, 60, 0.555);
+    color: rgba(145, 97, 74, 0.623);
 
 }
 
@@ -103,8 +106,8 @@ blockquote p {
 }
 
 #selfie {
-    border-radius: 50%;
-    border: 3px solid pink;
+    border-radius: 40%;
+    border: 6px solid rgba(245, 168, 3, 0.61);
 }
 
 .left-align {
