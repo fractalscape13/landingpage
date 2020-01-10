@@ -39,7 +39,7 @@ body {
     padding-left: 10px;
 }
 
-ul li {
+ul li, ol li {
     color: rgba(236, 231, 202, 0.644);
 }
 
@@ -81,7 +81,7 @@ blockquote p {
 
 #projectlist ul {
     text-align: left;
-    list-style-type: circle;
+    list-style-type: disc;
     font-size: 13px;
     padding-left: 50px;
 }
@@ -109,3 +109,6 @@ blockquote p {
     text-align: left;
 }
 
+.emphasis {
+    color: rgba(241, 211, 40, 0.479);
+}
