@@ -20,7 +20,8 @@ body {
 
 .container-fluid p {
     padding-top: 30px;
-    color: rgba(219, 161, 14, 0.336)
+    color: rgba(219, 161, 14, 0.336);
+    font-size: 125%;
 }
 
 .navbar {
@@ -61,4 +62,8 @@ blockquote {
     margin-right: 250px;
     margin-top: 40px;
     border: none;
+}
+
+blockquote p {
+    font-size: 75%;
 }
