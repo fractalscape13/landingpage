@@ -12,7 +12,7 @@ body {
 
 .container-fluid img {
     float: right;
-    width: 200px;
+    width: 300px;
     image-orientation: from-image;
     border-radius: 10%;
     margin-top: 30px;
@@ -32,10 +32,14 @@ body {
     padding-top: 20px;
 }
 
-ul {
+.wrapper ul {
     list-style-type: none;
     font-size: 13px;
     padding-left: 10px;
+}
+
+ul li {
+    color: rgba(236, 231, 202, 0.644);
 }
 
 .wrapper img {
@@ -54,7 +58,7 @@ ul {
 }
 
 h1 {
-    color: rgb(255, 251, 0);
+    color: rgba(236, 139, 27, 0.747);
 }
 
 blockquote {
@@ -66,4 +70,15 @@ blockquote {
 
 blockquote p {
     font-size: 75%;
+}
+
+#projectlist ul {
+    text-align: left;
+    list-style-type: circle;
+    font-size: 13px;
+    padding-left: 50px;
+}
+
+#projectlist ul li {
+    padding-bottom: 20px;
 }
