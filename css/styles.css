@@ -1,0 +1,14 @@
+body {
+    background-color: darkturquoise;
+    font-family: monospace;
+}
+
+.navbar {
+    position: fixed;
+    height: 100%;
+    background-color: darkslategray;
+}
+
+ul {
+    list-style-type: none;
+}
