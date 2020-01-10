@@ -7,20 +7,29 @@ body {
 .container-fluid {
     margin-left: 200px;
     margin-right: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.container-fluid img {
+    float: right;
+    width: 200px;
+    image-orientation: from-image;
+    border-radius: 10%;
+    margin-top: 30px;
 }
 
 .navbar {
     position: fixed;
     height: 100%;
     width: 200px;
-    background-color: rgb(40, 48, 48);
+    background-color: rgb(67, 68, 68);
     padding-top: 20px;
 }
 
 ul {
     list-style-type: none;
     font-size: 13px;
+    padding-left: 10px;
 }
 
 .wrapper img {
@@ -34,7 +43,7 @@ ul {
 }
 
 .navbar li a {
-    color: rgb(145, 124, 127);
+    color: rgb(224, 106, 124);
 
 }
 
