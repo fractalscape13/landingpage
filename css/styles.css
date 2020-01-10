@@ -1,14 +1,43 @@
 body {
-    background-color: darkturquoise;
+    background-color: black;
     font-family: monospace;
+    text-align: center;
+}
+
+.container-fluid {
+    margin-left: 200px;
+    margin-right: 100px;
+    border: 1px solid red;
 }
 
 .navbar {
     position: fixed;
     height: 100%;
-    background-color: darkslategray;
+    width: 200px;
+    background-color: rgb(40, 48, 48);
+    padding-top: 20px;
 }
 
 ul {
     list-style-type: none;
+    font-size: 13px;
+}
+
+.wrapper img {
+    margin-bottom: 100px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.navbar li {
+    padding: 40px;
+}
+
+.navbar li a {
+    color: rgb(145, 124, 127);
+
+}
+
+h1 {
+    color: rgb(255, 251, 0);
 }
