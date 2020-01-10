@@ -6,7 +6,7 @@ body {
 
 .container-fluid {
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 75px;
     /* border: 1px solid red; */
 }
 
@@ -47,6 +47,7 @@ ul li {
     margin-bottom: 50px;
     width: 120px;
     border-radius: 100%;
+    border: 3px solid black;
 }
 
 .navbar li {
@@ -97,4 +98,8 @@ blockquote p {
 #spiral {
     width: 500px;
     margin-right: 0;
+}
+
+#selfie {
+    border-radius: 50%;
 }
