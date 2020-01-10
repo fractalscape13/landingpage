@@ -1,7 +1,7 @@
 body {
     background-image: linear-gradient(black, rgb(28, 49, 70));
     background-size: fill;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
     text-align: center;
 }
 
