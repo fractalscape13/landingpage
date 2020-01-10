@@ -102,4 +102,10 @@ blockquote p {
 
 #selfie {
     border-radius: 50%;
+    border: 3px solid pink;
 }
+
+.left-align {
+    text-align: left;
+}
+
