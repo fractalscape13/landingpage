@@ -34,11 +34,6 @@ body {
     width: 200px;
     background-image: radial-gradient(rgb(35, 56, 56), black);
     padding-top: 20px;
-    border-right: 8px solid black;
-}
-
-.wrapper ul {
-    list-style-type: none;
     font-size: 13px;
     padding-left: 10px;
 }
@@ -52,15 +47,11 @@ ul li, ol li {
     width: 120px;
     border-radius: 100%;
     opacity: .9;
+    border: 3px solid black;
 }
 
-.navbar li {
-    padding: 40px;
-}
-
-.navbar li a {
+.navbar a {
     color: rgb(233, 61, 113);
-
 }
 
 h1 {
@@ -119,12 +110,11 @@ blockquote p {
     color: rgba(241, 211, 40, 0.479);
 }
 
-/*dropdown menu*/
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
     outline: none;
-    color: rgb(240, 39, 106);
+    color: rgb(177, 86, 116);
     padding: 14px 16px;
     background-color: inherit;
     margin: 0;
@@ -133,16 +123,16 @@ blockquote p {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #3a3838;
+    background-color: #363434;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    margin-left: 15px;
+    border: 2px solid silver;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
-    float: none;
-    color: black;
+    color: rgb(194, 68, 141);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -153,7 +143,6 @@ blockquote p {
     background-color: rgb(196, 153, 153);
   }
   
-  /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
     display: block;
   }
