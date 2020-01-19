@@ -43,7 +43,7 @@ ul li, ol li {
 }
 
 .wrapper img {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     width: 120px;
     border-radius: 100%;
     opacity: .9;
@@ -180,4 +180,11 @@ color: white;
 .fa-soundcloud {
     background: rgb(235, 105, 19);
     color: white;
+}
+
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(230, 180, 180);
+    margin: 6px 0;
 }
