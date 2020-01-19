@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(skyblue, indigo, black);
+    background-image: linear-gradient(black, darkred, goldenrod);
     background-color: black;
     background-size: fill;
     font-family: monospace;
@@ -32,7 +32,7 @@ body {
     position: fixed;
     height: 100vh;
     width: 200px;
-    background-image: linear-gradient(darkslategrey, black);
+    background-image: radial-gradient(rgb(35, 56, 56), black);
     padding-top: 20px;
     border-right: 8px solid black;
 }
@@ -51,7 +51,6 @@ ul li, ol li {
     margin-bottom: 50px;
     width: 120px;
     border-radius: 100%;
-    border: 8px solid black;
     opacity: .9;
 }
 
@@ -60,7 +59,7 @@ ul li, ol li {
 }
 
 .navbar li a {
-    color: rgb(224, 106, 124);
+    color: rgb(233, 61, 113);
 
 }
 
@@ -98,7 +97,7 @@ blockquote p {
 }
 
 .fractal {
-    color: rgba(145, 97, 74, 0.623);
+    color: rgba(81, 5, 110, 0.904);
 
 }
 
