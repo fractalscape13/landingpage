@@ -6,7 +6,7 @@
 
 ## Description
 
-_This site is designed to introduce me, my coding projects, and my personal interests._
+_This site is designed to introduce me, my coding projects, and my personal interests. Viewable at https://fractalscape13.github.io/landingpage/_
 
 ## Setup/Installation Requirements
 
